@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.hero{
+  height: 100%;
+  width: 100%;
+  background-image: url(download.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form-box{
+  height: 450px;
+  width: 350px;
+  background: #fff;
+  position: relative;
+  margin: 6% auto;
+  padding: 5px;
+}
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #f98778;
+  border-radius: 30px;
+}
+.toggle-btn{
+  padding: 10px 30px;
+  position: relative;
+  cursor: pointer;
+  background: #f45673;
+  outline: none;
+  border:0;
+}
+.btn{
+  top: 0px;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 110%;
+  border-radius: 30px;
+  transition: .5s;
+}

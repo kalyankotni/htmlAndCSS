@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+h3{
+  color: #697466;
+}
+body{
+  background-color: #f4f4f4;
+  color: #658848;
+  font-family:cursive, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  font: normal, 24px Arial;
+  line-height: 1.6em;
+  margin: 0;
+}
+p{
+  color: rgb(255, 0, 0);
+}
+a{
+  text-decoration: none;
+  color: #7789
+}
+a:hover{
+  color: #9876
+}
+a:active{
+  color: green;
+}
+a:visited{
+  color: red;
+}
+.container{
+  width: 500Px;
+  margin: auto;
+}
+.box-1{
+  background: #848747;
+  color: #674444;
+  /* border-right: 5px red solid;
+  border-top: 8px green solid;
+  border-left: 10px blue solid;
+  border-bottom: 12px yellow solid; */
+  border: 5px blue solid;
+  padding: 20px;
+}
+.box-1 h1{
+  font-family: tahome;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.box-2{
+  border: 3px dotted green;
+  margin: 20px;
+  padding: 20px;
+}
+.category{
+  border: 1px #787484 solid;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+.category h3{
+text-align: center;
+
+}
+.category ul{
+list-style: square;
+list-style: none;
+  padding: 0;
+}
+.category li{
+  padding-bottom: 6px;
+  border-bottom: 1px dotted #123455;
+}
+.my-form{
+  padding: 20px
+}
+.my-form .form-group{
+  padding-bottom: 20px;
+}
+.my-form label{
+  color: #766595;
+  display: block;
+}
+.my-form input, textarea{
+  padding: 8px;
+  width: 100%
+}
+.my-form button{
+background: #757333;
+color: #fff;
+padding: 6px 8px;
+border: none;
+}
